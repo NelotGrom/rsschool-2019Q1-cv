@@ -1,0 +1,79 @@
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: ivory;
+}
+
+header {
+    max-width: 1024px;
+    display: flex;
+    background-color: darkkhaki;
+    justify-content: center;
+}
+
+.photo {
+    height: 450px;
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contacts-list {
+    list-style-type: none;
+}
+
+.info {
+    padding-left: 70px;
+    border-right-width: 100px;
+    padding-right: 70px;
+}
+
+.summary {
+    font-size: 20px;
+}
+
+.myskills a {
+    text-decoration-line: none;
+}
+
+.expirience {
+    font-size: 16px;
+}
+
+.education {
+    font-size: 16px;
+}
+
+.language {
+    font-size: 16px;
+}
+
+footer {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    background-color: darkgray;
+    padding: 5px;
+}
+
+.trust {
+    font-style: italic;
+}
